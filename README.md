@@ -117,21 +117,7 @@ scripts/                   debug_case.py, check_quota.py, recheck_titles.py, exp
 docs/                      SUBMISSION.md, PROMPTS.md
 ```
 
-## Deploy a public demo (free)
 
-**Streamlit Community Cloud:** push this folder to a GitHub repo (`.env` is git-ignored, so your key is not
-uploaded). Then at <https://share.streamlit.io> choose *New app* → pick the repo → main file `app.py`. Under
-*Advanced settings → Secrets*, add:
-
-```toml
-GROQ_API_KEY = "gsk_..."
-# optional: visitors must enter this before using the app (protects your API quota)
-APP_PASSWORD = "choose-a-password"
-# optional: enables the Gemini comparison mode
-GEMINI_API_KEY = "..."
-```
-
-Under *Advanced settings*, choose Python 3.12.
 
 **Hugging Face Spaces** works the same way: create a Streamlit Space, upload the files, and add `GROQ_API_KEY` as a
 secret.
