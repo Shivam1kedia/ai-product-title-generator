@@ -1,0 +1,41 @@
+﻿[ 1/12] OK ex1  Auto-approved            Cotton Bag Fabric for Lining
+[ 2/12] OK ex2  Auto-approved            Black Ladies Plain Leather Wallet
+[ 3/12] OK s1   Auto-approved            1 L Stainless Steel Water Bottle for Men, Gym, Office
+[ 4/12] OK s2   Auto-approved            50 Ton Semi-Automatic Hydraulic Press Machine, 3 HP
+[ 5/12] OK s3   Auto-approved            9 W LED Bulb, 6500K, B22 Base
+[ 6/12] OK s5   Auto-approved            Brown 5 Ply Corrugated Paper Packaging Box
+[ 7/12] OK h04  Auto-approved            25 kg Basmati Rice, 1121, Long Grain
+[ 8/12] OK h06  Auto-approved            4 Inch PVC Pipe, 6 kg/cm2
+[ 9/12] OK h09  Auto-approved            Havells 15W Warm White Round LED Panel Light
+[10/12] OK h13  Auto-approved            SKF 25 mm Chrome Steel Ball Bearing
+[11/12] OK n02  Auto-approved            1200 mm Ceiling Fan, 3 Blade, 50 W
+[12/12] OK o01  Auto-approved            White Cotton Kurta with Chikan Embroidery for Men
+
+=== summary ===
+titles                                                  12
+errors                                                  0
+grounded_pct (verifier: every word traced to input)     100.0
+redundancy_free_pct (verifier)                          100.0
+key_term_recall_pct                                     100.0
+cases_with_forbidden_terms                              0
+english_only_pct                                        100.0
+auto_approved_pct                                       100.0
+needs_review_pct                                        0.0
+fallback_pct                                            0.0
+risky_cases_routed_to_review_pct                        None
+escalated_to_second_attempt_pct                         25.0
+avg_chars                                               38.2
+within_25_75_chars_pct                                  100.0
+within_100_chars_pct                                    100.0
+distinct_structures_pct (variety)                       66.7
+avg_llm_latency_s                                       1.41
+p95_llm_latency_s                                       3.73
+avg_cost_per_title_usd                                  0.000468
+projected_cost_per_1M_titles_usd                        468
+prompt_version                                          v4.4
+mode                                                    cascade
+judge_model                                             
+run_at                                                  2026-10-13T04:50:33
+wall_time_s                                             162.1
+
+wrote C:\Users\shiva\AppData\Roaming\Claude\scratch-workspaces\3d3555d3-58f5-4d16-94ef-407c3e534389\cc1bea47-c55b-4b5f-835f-1313e95033d1\scratch-2026-10-12-520037\eval\results\v4.4_cascade_subset_stability.csv

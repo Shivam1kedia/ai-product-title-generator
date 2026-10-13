@@ -1,0 +1,64 @@
+﻿[ 1/30] ex1  pub=True  acc=5 flu=5 fit=5  Cotton Bag Fabric for Lining  ->  Cotton Bag Fabric for Lining
+[ 2/30] ex2  pub=True  acc=5 flu=5 fit=5  Black Plain Leather Wallet for Women  ->  Black Plain Leather Wallet for Women
+[ 3/30] ex3  pub=False acc=4 flu=3 fit=3  Cotton Cream Cool Carry Bag GSM 250-300  ->  Cream Cotton Carry Bag, 250-300 GSM
+[ 4/30] s1   pub=True  acc=5 flu=5 fit=5  1 L Stainless Steel Water Bottle for Gym and Office  ->  1 L Stainless Steel Water Bottle for Gym and Office
+[ 5/30] s2   pub=False acc=5 flu=4 fit=5  50 Ton Semi-Automatic Hydraulic Press Machine 3 HP  ->  50 Ton Semi-Automatic Hydraulic Press Machine, 3 HP
+[ 6/30] s3   pub=False acc=5 flu=4 fit=5  9W LED Bulb 6500K B22 Base  ->  9W LED Bulb, 6500K, B22 Base
+[ 7/30] s4   pub=False acc=5 flu=4 fit=5  Printed Cotton Kurti for Women S-XXL  ->  Printed Cotton Kurti for Women, S-XXL
+[ 8/30] s5   pub=True  acc=5 flu=5 fit=5  5 Ply Brown Corrugated Carton Box  ->  5 Ply Brown Corrugated Carton Box
+[ 9/30] s6   pub=True  acc=5 flu=5 fit=5  SS 304 2 Inch 90° Pipe Elbow  ->  SS 304 2 Inch 90° Pipe Elbow
+[10/30] h01  pub=True  acc=5 flu=5 fit=5  Stainless Steel 750 ml Water Bottle  ->  Stainless Steel 750 ml Water Bottle
+[11/30] h02  pub=True  acc=5 flu=5 fit=5  Brown Genuine Leather Belt for Men  ->  Brown Genuine Leather Belt for Men
+[12/30] h03  pub=True  acc=5 flu=5 fit=5  Ladies Handbag  ->  Ladies Handbag
+[13/30] h04  pub=False acc=5 flu=4 fit=5  1121 Long Grain Basmati Rice 25 kg  ->  1121 Long Grain Basmati Rice, 25 kg
+[14/30] h05  pub=True  acc=5 flu=5 fit=5  Cotton Half Sleeve T-Shirt for Men  ->  Cotton Half Sleeve T-Shirt for Men
+[15/30] h06  pub=False acc=5 flu=4 fit=5  PVC Pipe 4 Inch 6 Kg/Cm2  ->  PVC Pipe, 4 Inch, 6 kg/cm2
+[16/30] h07  pub=False acc=5 flu=4 fit=5  Copper Wire 1.5 sq mm PVC 90M House Wiring  ->  Copper Wire 1.5 sq mm PVC 90 m House Wiring
+[17/30] h08  pub=True  acc=5 flu=5 fit=5  Revolving Office Chair  ->  Revolving Office Chair
+[18/30] h09  pub=False acc=5 flu=4 fit=5  Havells 15W Round LED Panel Light Warm White  ->  Havells 15W Round LED Panel Light, Warm White
+[19/30] h10  pub=False acc=5 flu=4 fit=4  CNC Lathe Machine 400mm Swing, 1000mm Center, 52mm Bore, 7.5kW Motor, Fanuc Controller, Automatic  ->  Jyoti Automatic CNC Lathe Machine, 400mm Swing, 1000mm Center, 52mm Bore, 7.5kW, Fanuc Controller
+[20/30] h11  pub=False acc=5 flu=4 fit=5  WordPress E-Commerce Website Development Service Pan India  ->  WordPress E-Commerce Website Development Service, Pan India
+[21/30] h12  pub=False acc=5 flu=4 fit=5  Paracetamol 500mg Tablet Strip 10x10  ->  Paracetamol 500mg Tablets, 10x10 Strip
+[22/30] h13  pub=True  acc=5 flu=5 fit=5  SKF 25 mm Chrome Steel Ball Bearing  ->  SKF 25 mm Chrome Steel Ball Bearing
+[23/30] h14  pub=False acc=5 flu=4 fit=4  Cotton Fabric 44 Inch Plain  ->  Plain Cotton Fabric, 44 Inch
+[24/30] h15  pub=False acc=5 flu=4 fit=5  Polyester 25 L Kids School Bag with 3 Compartments  ->  Polyester Kids School Bag, 25 L, 3 Compartments
+[25/30] h16  pub=True  acc=5 flu=5 fit=5  MS Angle 40x40x5 mm IS 2062  ->  MS Angle 40x40x5 mm IS 2062
+[26/30] h17  pub=False acc=5 flu=4 fit=5  Herbal Shampoo and Conditioner Combo 200ml Each All Hair Types  ->  Herbal Shampoo and Conditioner Combo, 200 ml Each, All Hair Types
+[27/30] h18  pub=False acc=5 flu=5 fit=1  Asdf Item Product  ->  Asdf Item
+[28/30] h19  pub=True  acc=5 flu=5 fit=5  White Cotton Industrial Gloves  ->  White Cotton Industrial Gloves
+[29/30] h20  pub=False acc=5 flu=4 fit=4  Anarkali Kurti, Calf Length, Rayon  ->  Rayon Anarkali Kurti, Calf Length
+[30/30] h21  pub=False acc=5 flu=4 fit=5  Organic Whole Cumin Seeds 1 kg  ->  Organic Whole Cumin Seeds, 1 kg
+
+=== summary ===
+titles                                                  30
+errors                                                  0
+grounded_pct (verifier: every word traced to input)     100.0
+redundancy_free_pct (verifier)                          96.7
+key_term_recall_pct                                     98.6
+cases_with_forbidden_terms                              0
+english_only_pct                                        100.0
+auto_approved_pct                                       83.3
+needs_review_pct                                        16.7
+fallback_pct                                            0.0
+risky_cases_routed_to_review_pct                        100.0
+escalated_to_second_attempt_pct                         20.0
+avg_chars                                               37.1
+within_25_75_chars_pct                                  83.3
+within_100_chars_pct                                    100.0
+distinct_structures_pct (variety)                       46.7
+avg_llm_latency_s                                       1.19
+p95_llm_latency_s                                       2.7
+avg_cost_per_title_usd                                  0.000298
+projected_cost_per_1M_titles_usd                        298
+judge_publishable_as_is_pct                             43.3
+judge_avg_accuracy_1to5                                 4.97
+judge_avg_fluency_1to5                                  4.43
+judge_avg_search_fit_1to5                               4.7
+judge_invented_detail_pct                               3.3
+judge_redundancy_free_pct                               100.0
+prompt_version                                          v1
+mode                                                    cascade
+judge_model                                             qwen/qwen3.8-27b
+run_at                                                  2026-10-13T02:40:35
+
+wrote eval\results\v1_cascade_rejudged.csv

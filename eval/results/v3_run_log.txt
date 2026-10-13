@@ -1,0 +1,80 @@
+﻿[ 1/30] OK ex1  Auto-approved            Bag Cotton Fabric for Lining
+        judge: Accurate and concise.  ->  Cotton Bag Fabric for Lining
+[ 2/30] OK ex2  Auto-approved            Black Ladies Plain Leather Wallet
+[ 3/30] OK ex3  Auto-approved            Cotton Cream Cool Carry Bag Fabric, GSM 250-300
+[ 4/30] OK s1   Auto-approved            Stainless Steel Water Bottle, 1 L, for Gym and Office
+[ 5/30] OK s2   Auto-approved            50 Ton Hydraulic Press Machine, Semi-Automatic, 3 HP
+[ 6/30] OK s3   Auto-approved            9 W LED Bulb, 6500K, B22 Base
+[ 7/30] OK s4   Auto-approved            Cotton Printed Kurti for Women, Size S to XXL
+[ 8/30] OK s5   Auto-approved            5 Ply Brown Corrugated Carton Box
+[ 9/30] OK s6   Auto-approved            SS 304 Pipe Fitting Elbow, 90 Degree, 2 Inch
+[10/30] OK h01  Needs review             750 ml Stainless Steel Water Bottle
+        - Conflict: Product name says 1 litre but specifications state 750 ml
+        - Model confidence is medium.
+[11/30] OK h02  Needs review             Brown Genuine Leather Belt for Men
+        - Conflict: Colour specified as Black in product name but Brown in specifications
+        - Model confidence is medium.
+[12/30] OK h03  Auto-approved            Ladies Handbag
+[13/30] OK h04  Auto-approved            25 kg Basmati Rice, 1121, Long Grain
+[14/30] OK h05  Auto-approved            Half Sleeve Cotton T-Shirt for Men
+[15/30] OK h06  Needs review             PVC Pipe 4 Inch, Pressure Rating 6 kg/cm2
+        - Specs run together in 'Pressure Rating 6 kg/cm2'. Separate them with commas or labels, or keep only the most important one.
+[16/30] OK h07  Auto-approved            Copper Wire 1.5 Sq Mm, 90 m PVC
+        judge: All facts are supported by the input.  ->  Copper Wire 1.5 Sq Mm, 90 m, PVC Insulation
+[17/30] OK h08  Auto-approved            Revolving Office Chair
+[18/30] OK h09  Auto-approved            15W Havells Warm White Round LED Panel Light
+        judge: All details are supported by the input.  ->  Havells 15W Round LED Panel Light, Warm White
+[19/30] OK h10  Auto-approved            7.5 kW CNC Lathe Machine, 400 mm Swing, Automatic Fanuc Controller
+        judge: All details are supported by the input.  ->  Jyoti 7.5 kW Automatic CNC Lathe Machine, 400 mm Swing, Fanuc Controller
+[20/30] OK h11  Auto-approved            WordPress E-Commerce Website Development Service
+[21/30] OK h12  Auto-approved            Paracetamol 500mg Tablet, Strip, 10 x 10 Pack
+        judge: The title accurately reflects the product name and specifications provided in the input.  ->  Paracetamol 500mg Tablets, 10 x 10 Strip Pack
+[22/30] OK h13  Auto-approved            SKF 25 mm Chrome Steel Ball Bearing
+[23/30] OK h14  Auto-approved            44 Inch Cotton Fabric, Plain
+        judge: The title accurately reflects the product name and specifications provided in the input.  ->  44 Inch Plain Cotton Fabric
+[24/30] OK h15  Auto-approved            Polyester School Bag, 25 L, 3 Compartments
+[25/30] OK h16  Auto-approved            Mild Steel Angle 40x40x5 mm, IS 2062
+[26/30] OK h17  Auto-approved            Shampoo and Conditioner Combo Herbal, 200 ml Each
+        judge: Accurate and concise.  ->  Herbal Shampoo and Conditioner Combo, 200 ml Each
+[27/30] OK h18  Needs review             Asdf Item Product
+        - 'product' is not in the input; the model says it is implied. Needs a human check.
+        - Model confidence is low. Only minimal information provided; 'Product' added as a generic implied term.
+        judge: The title accurately reflects the nonsensical input provided.  ->  Asdf Item
+[28/30] OK h19  Auto-approved            White Cotton Industrial Gloves
+[29/30] OK h20  Auto-approved            Rayon Calf Length Anarkali Kurti
+[30/30] OK h21  Auto-approved            1 kg Organic Whole Jeera Seeds
+
+=== summary ===
+titles                                                  30
+errors                                                  0
+grounded_pct (verifier: every word traced to input)     100.0
+redundancy_free_pct (verifier)                          100.0
+key_term_recall_pct                                     98.6
+cases_with_forbidden_terms                              0
+english_only_pct                                        100.0
+auto_approved_pct                                       86.7
+needs_review_pct                                        13.3
+fallback_pct                                            0.0
+risky_cases_routed_to_review_pct                        100.0
+escalated_to_second_attempt_pct                         23.3
+avg_chars                                               37.1
+within_25_75_chars_pct                                  90.0
+within_100_chars_pct                                    100.0
+distinct_structures_pct (variety)                       60.0
+avg_llm_latency_s                                       1.29
+p95_llm_latency_s                                       2.67
+avg_cost_per_title_usd                                  0.000335
+projected_cost_per_1M_titles_usd                        335
+judge_publishable_as_is_pct                             73.3
+judge_avg_accuracy_1to5                                 5
+judge_avg_fluency_1to5                                  4.8
+judge_avg_search_fit_1to5                               4.6
+judge_invented_detail_pct                               3.3
+judge_redundancy_free_pct                               100.0
+prompt_version                                          v3
+mode                                                    cascade
+judge_model                                             qwen/qwen3.8-27b
+run_at                                                  2026-10-13T02:56:03
+wall_time_s                                             375.4
+
+wrote C:\Users\shiva\AppData\Roaming\Claude\scratch-workspaces\3d3555d3-58f5-4d16-94ef-407c3e534389\cc1bea47-c55b-4b5f-835f-1313e95033d1\scratch-2026-10-12-520037\eval\results\v3_cascade.csv

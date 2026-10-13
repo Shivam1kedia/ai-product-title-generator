@@ -1,0 +1,70 @@
+﻿[ 1/30] OK ex1  Auto-approved            Cotton Bag Fabric for Lining
+[ 2/30] OK ex2  Auto-approved            Black Plain Leather Wallet for Women
+[ 3/30] OK ex3  Auto-approved            Cotton Cream Cool Carry Bag GSM 250-300
+[ 4/30] OK s1   Auto-approved            1 L Stainless Steel Water Bottle for Gym and Office
+[ 5/30] OK s2   Auto-approved            50 Ton Semi-Automatic Hydraulic Press Machine 3 HP
+[ 6/30] OK s3   Auto-approved            9W LED Bulb 6500K B22 Base
+[ 7/30] OK s4   Auto-approved            Printed Cotton Kurti for Women S-XXL
+[ 8/30] OK s5   Auto-approved            5 Ply Brown Corrugated Carton Box
+[ 9/30] OK s6   Auto-approved            SS 304 2 Inch 90° Pipe Elbow
+[10/30] OK h01  Needs review             Stainless Steel 750 ml Water Bottle
+        - Conflict: Product name states 1 litre but specifications give 750 ml
+[11/30] OK h02  Needs review             Brown Genuine Leather Belt for Men
+        - 'genuine' is a subjective word (the supplier did write it).
+        - Conflict: Product name colour 'Black' conflicts with specification colour 'Brown'
+[12/30] OK h03  Auto-approved            Ladies Handbag
+[13/30] OK h04  Auto-approved            1121 Long Grain Basmati Rice 25 kg
+[14/30] OK h05  Auto-approved            Cotton Half Sleeve T-Shirt for Men
+[15/30] OK h06  Auto-approved            PVC Pipe 4 Inch 6 Kg/Cm2
+[16/30] !! h07  Needs review             Copper Wire 1.5 sq mm PVC 90M House Wiring
+        - 'wire' and 'wiring' say the same thing.
+[17/30] OK h08  Needs review             Revolving Office Chair
+        - Model confidence is medium.
+[18/30] OK h09  Auto-approved            Havells 15W Round LED Panel Light Warm White
+[19/30] OK h10  Auto-approved            CNC Lathe Machine 400mm Swing, 1000mm Center, 52mm Bore, 7.5kW Motor, Fanuc Controller, Automatic
+[20/30] OK h11  Auto-approved            WordPress E-Commerce Website Development Service Pan India
+[21/30] OK h12  Auto-approved            Paracetamol 500mg Tablet Strip 10x10
+[22/30] OK h13  Auto-approved            SKF 25 mm Chrome Steel Ball Bearing
+[23/30] OK h14  Auto-approved            Cotton Fabric 44 Inch Plain
+[24/30] OK h15  Auto-approved            Polyester 25 L Kids School Bag with 3 Compartments
+[25/30] OK h16  Auto-approved            MS Angle 40x40x5 mm IS 2062
+[26/30] OK h17  Auto-approved            Herbal Shampoo and Conditioner Combo 200ml Each All Hair Types
+[27/30] OK h18  Needs review             Asdf Item Product
+        - 'product' is not in the input; the model says it is implied. Needs a human check.
+        - Model confidence is low. Insufficient information; only generic term added as implied.
+[28/30] OK h19  Auto-approved            White Cotton Industrial Gloves
+[29/30] OK h20  Auto-approved            Anarkali Kurti, Calf Length, Rayon
+[30/30] OK h21  Auto-approved            Organic Whole Cumin Seeds 1 kg
+
+=== summary ===
+titles                                                  30
+errors                                                  0
+grounded_pct (verifier: every word traced to input)     100.0
+redundancy_free_pct (verifier)                          96.7
+key_term_recall_pct                                     98.6
+cases_with_forbidden_terms                              0
+english_only_pct                                        100.0
+auto_approved_pct                                       83.3
+needs_review_pct                                        16.7
+fallback_pct                                            0.0
+risky_cases_routed_to_review_pct                        100.0
+escalated_to_second_attempt_pct                         20.0
+avg_chars                                               37.1
+within_40_80_chars_pct                                  23.3
+within_100_chars_pct                                    100.0
+distinct_structures_pct (variety)                       46.7
+avg_llm_latency_s                                       1.19
+p95_llm_latency_s                                       2.7
+avg_cost_per_title_usd                                  0.000298
+projected_cost_per_1M_titles_usd                        298
+judge_avg_accuracy_1to5                                 4.93
+judge_avg_fluency_1to5                                  4.97
+judge_avg_search_fit_1to5                               5
+judge_invented_detail_pct                               3.3
+judge_redundancy_free_pct                               100.0
+prompt_version                                          v1
+mode                                                    cascade
+run_at                                                  2026-10-13T02:31:37
+wall_time_s                                             375.5
+
+wrote C:\Users\shiva\AppData\Roaming\Claude\scratch-workspaces\3d3555d3-58f5-4d16-94ef-407c3e534389\cc1bea47-c55b-4b5f-835f-1313e95033d1\scratch-2026-10-12-520037\eval\results\v1_cascade.csv
